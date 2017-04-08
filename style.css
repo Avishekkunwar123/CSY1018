@@ -1,0 +1,152 @@
+body{
+
+  margin-top: 20px;
+  padding-top: 10px;
+  font-family: tahoma;
+}
+header{
+  background:lightblue;
+  width: 100%;
+  padding-top: 20px 0;
+  color: white;
+  text-align: center;
+}
+section{
+	background: white;
+  color: white;
+
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+nav ul{
+       background-color: orange;
+      overflow-x: hidden;
+      width:100%;
+       color: white;
+       text-align: center;
+       margin-top: 10px;
+       padding: 0px;
+
+}
+nav ul li{
+  display:inline-block;
+ padding: 20px;
+
+
+}
+nav ul li:hover{
+  background-color: #399077;
+}
+section{
+  line-height: 1.5em;
+  font-size: 1em;
+  padding: 0px;
+  width: 50%;
+  margin-bottom: 60px;
+}
+
+
+#footer {
+    border-top: 2px solid black;
+    height: 35px;
+    background-color: orange;
+   overflow-x: hidden;
+   width:100%;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+
+@media screen and (max-width:580px){
+  nav ul {
+    max-height: 0px;
+    width: 100px;
+
+    }
+    .showing{
+      height: 100px;
+    }
+    nav ul li{
+    box-sizing: border-box;
+    width: 100%;
+    padding:15px;
+    text-align: left;
+  }
+
+}
+
+body{
+  margin :0;
+  padding:0;
+  text-align:left;
+}
+
+
+
+
+
+#overlay{
+  margin:auto;
+  width:auto;
+  height:auto;
+
+}
+
+
+.block2{
+  width:auto;
+  float:left;
+  padding-bottom: 70px;
+  margin-right:90px;
+  color:black;
+
+}
+button{
+  width: auto;
+  height:auto;
+  background-color:red;
+  border-radius: 3px;
+  font-size:15px;
+  margin-top: 5px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+
+
+
+
+
+
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+@media all and (max-width:800px){
+ul{
+display:flex;
+flex-direction:column;
+}
+}
